@@ -12,7 +12,7 @@ Vue.use(IconsPlugin)
 Vue.prototype.$http = axios.create({
     baseURL: "https://console.ucrawler.app/api/",
     headers: {
-        'Authorization': 'Token 0272c5f1f63f4654561ba07ee0406fe25e63aef8'
+        'Authorization': 'Token 233173988f7fe3ab9ed8a8e515f14fb3469fd4f2'
     }
 })
 

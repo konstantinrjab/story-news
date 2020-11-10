@@ -1,7 +1,7 @@
 docker run -u 1000:1000 -v ${PWD}:/app -p 8080:8080 node bash -c 'cd /app && npm run serve' npm
 docker run -u 1000:1000 -v ${PWD}:/app node bash -c 'cd /app && npm install axios --save'
 
-# news2
+# story-news
 
 ## Project setup
 ```

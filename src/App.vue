@@ -1,28 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Category/>
-  </div>
+    <div id="app">
+        <Navbar/>
+        <CategoryLoader/>
+    </div>
 </template>
 
 <script>
-import Category from './components/Category.vue'
+    import CategoryLoader from './components/CategoryLoader.vue'
+    import Navbar from './components/Navbar.vue'
 
-export default {
-  name: 'App',
-  components: {
-    Category
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            CategoryLoader,
+            Navbar
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    @import './assets/styles/main.css';
 </style>
