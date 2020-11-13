@@ -19,5 +19,5 @@
 </script>
 
 <style>
-    @import './assets/styles/main.css';
+
 </style>
